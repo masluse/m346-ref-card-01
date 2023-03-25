@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Ref. Card 01</title>
+    <style>
+        .color1 { background-color: #1488C6; }
+        .color2 { background-color: #3E4E5A; }
+        .color3 { background-color: #64798A; }
+        .color4 { background-color: #F0F0F0; }
+
+        body { background-color: #1488C6; color: aliceblue; font-family: sans-serif }
+        .message { background-color: #64798A; padding: 20px; border-radius: 10px; margin-top: 10px}
+    </style>
+</head>
+<body>
+    <h1>Application Ref. Card 01</h1>
+    <small>Spring Boot Application with no resources</small>
+    <div class="message">
+        <p th:text="${message}"/>
+    </div>
+</body>
+</html>
